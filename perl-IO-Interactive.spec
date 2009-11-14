@@ -1,5 +1,5 @@
 %define upstream_name    IO-Interactive
-%define upstream_version 0.0.5
+%define upstream_version 0.0.6
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
