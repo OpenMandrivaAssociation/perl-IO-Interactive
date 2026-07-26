@@ -1,15 +1,13 @@
 %define upstream_name    IO-Interactive
-%define upstream_version 1.027
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.027
+Release:	2
 
 Summary:	Utilities for interactive I/O
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/briandfoy/io-interactive
-Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/IO-Interactive-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/IO-Interactive-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -28,7 +26,7 @@ develop interactive applications...
   considerably more sophisticated than:
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
