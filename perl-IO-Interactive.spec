@@ -1,7 +1,7 @@
 %define upstream_name    IO-Interactive
 Name:		perl-%{upstream_name}
 Version:	1.027
-Release:	2
+Release:	1
 
 Summary:	Utilities for interactive I/O
 License:	GPL+ or Artistic
