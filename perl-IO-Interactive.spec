@@ -39,7 +39,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %makeinstall_std
 
 %files
-%doc Changes README
+%doc Changes
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
